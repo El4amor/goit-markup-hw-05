@@ -390,11 +390,14 @@ img {
 
 /* Customers */
 
+.customers {
+  padding: 120px 0;
+}
+
 .customers-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 120px;
   gap: 24px;
 }
 
@@ -440,7 +443,6 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--subtitle-color);
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
