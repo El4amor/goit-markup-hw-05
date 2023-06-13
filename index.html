@@ -37,7 +37,7 @@
       <section class="hero">
         <div class="container hero-container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-btn">Order Service</button>
+        <button type="button" class="hero-btn" data-modal-open>Order Service</button>
         </div>
       </section>
       <section class="features">
@@ -415,5 +415,16 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-btn" data-modal-close>
+          <svg class="button-close-icon" width="8" height="8">
+            <use href="./css/slyles.css#icon-close-black"></use>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
