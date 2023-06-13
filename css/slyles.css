@@ -296,10 +296,6 @@ img {
 }
 /* Team */
 
-.container-team {
-  padding-bottom: 32px;
-}
-
 .team {
   background-color: var(--button-background-color);
   padding: 120px 0 120px;
@@ -370,7 +366,7 @@ img {
 }
 
 .container-name {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-name {
