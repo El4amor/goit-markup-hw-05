@@ -696,13 +696,9 @@ img {
   overflow: hidden;
 }
 
-.card-cover-block:hover .card-cover-text {
-  transform: translateY(0);
+.card-cover-block:is(:hover, :focus) .card-cover-text {
+  transform: translateY(0%);
 }
-.card-cover-block:focus .card-cover-text {
-  transform: translateY(0);
-}
-
 .card-cover-text {
   position: absolute;
   font-size: 16px;
