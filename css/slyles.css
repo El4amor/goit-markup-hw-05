@@ -488,7 +488,7 @@ img {
 }
 
 .footer-soc-title {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -596,29 +596,6 @@ img {
 }
 
 /* PORTFOLIO */
-
-.header-menu-link-portfolio {
-  display: block;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--subtitle-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.header-menu-link-portfolio:hover {
-  color: var(--header-menu-link);
-}
-
-.header-menu-link-portfolio:focus {
-  color: var(--header-menu-link);
-}
-
-.span-portfolio-header {
-  color: var(--subtitle-color);
-}
 
 .filters-list {
   display: flex;
