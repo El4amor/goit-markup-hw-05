@@ -480,20 +480,20 @@ img {
 }
 
 .footer-title {
-  font-weight: 500px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--button-background-color);
   max-width: 264px;
-  margin-bottom: 16px;
 }
 
 .footer-soc-title {
+  font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer-soc-list {
