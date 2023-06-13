@@ -362,6 +362,7 @@ img {
 .team-soc-icon {
   display: flex;
   flex-direction: row;
+  fill: var(--button-background-color);
 }
 
 .container-name {
