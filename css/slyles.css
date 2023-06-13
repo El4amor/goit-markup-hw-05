@@ -296,6 +296,10 @@ img {
 }
 /* Team */
 
+.container-team {
+  padding-bottom: 32px;
+}
+
 .team {
   background-color: var(--button-background-color);
   padding: 120px 0 120px;
