@@ -381,6 +381,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 120px;
+  gap: 24px;
 }
 
 .customers-icon {
@@ -411,6 +412,10 @@ img {
 .customers-item {
   width: 168px;
   height: 88px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .customers-title {
@@ -423,13 +428,6 @@ img {
   color: var(--subtitle-color);
   padding-top: 120px;
   margin-bottom: 72px;
-}
-
-.customers-icon-bg {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Footer */
