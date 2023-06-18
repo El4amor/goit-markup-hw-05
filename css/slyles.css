@@ -666,6 +666,10 @@ img {
   margin-bottom: 16px;
 }
 
+.modal-form {
+  gap: 24px;
+}
+
 .modal-field {
   margin-bottom: 8px;
 }
