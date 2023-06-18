@@ -771,11 +771,12 @@ img {
 
 .input-check:checked + .check-text span {
   background-color: #404bbf;
-  border: 1px solid #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
 .modal-send {
+  min-width: 169px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
