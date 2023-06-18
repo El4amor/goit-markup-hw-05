@@ -543,14 +543,17 @@ img {
 .footer-input {
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
   border: 1px solid #ffffff;
   border-radius: 4px;
   background-color: transparent;
   color: #ffffff;
   letter-spacing: 0.04em;
   outline: transparent;
-  padding-left: 24px;
+  padding-left: 16px;
   margin-right: 24px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -565,6 +568,7 @@ img {
 }
 
 .footer-btn {
+  min-width: 165px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -578,7 +582,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -590,6 +593,7 @@ img {
 
 .footer-btn-telegram {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 /* BACKDROP */
