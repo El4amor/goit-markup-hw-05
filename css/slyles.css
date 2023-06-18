@@ -747,6 +747,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+
 .check-text {
   font-size: 12px;
   line-height: 1.17;
